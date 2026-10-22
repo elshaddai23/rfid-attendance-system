@@ -29,7 +29,7 @@ clock, and shows the student's matric number and sign-in time on a 16x2 LCD.
 | Device | Pin connections |
 |---|---|
 | RC522 | SDA (SS) to 10, RST to 9, SCK to 13, MOSI to 11, MISO to 12, 3.3V, GND |
-| DS1302 | CLK to 5, DAT to 4, RST to 2, VCC to 5V, GND |
+| DS1302 | CLK to 6, DAT to 7, RST to 8, VCC to 5V, GND |
 | LCD (I2C) | SDA to A4, SCL to A5, VCC to 5V, GND |
 
 The RC522 must be powered from 3.3V, not 5V.
